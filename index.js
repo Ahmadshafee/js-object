@@ -1,9 +1,4 @@
-var name ='shafee';
-var age = 21;
-var address ='jharkhand';
-var phno = 8709284262;
-
-var student ={
+Var student ={
      name: 'shafee',
      age: 21,
      phno: 8709284262,
