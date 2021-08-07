@@ -1,12 +1,12 @@
 var name ='shafee';
-var age = '21';
+var age = 21;
 var address ='jharkhand';
 var phno = 8709284262;
 
-var student={
-     name ='shafee',
-     age = '21',
-     phno = 8709284262,
+var student ={
+     name: 'shafee',
+     age: 21,
+     phno: 8709284262,
 }
 
 //accessing objects using . notation
@@ -21,9 +21,9 @@ console.log(student['age']);
 console.log(student['phno']);
 
 var student={
-    name ='shafee',
-    age = '21',
-    phno = 8709284262,
+    name:'shafee',
+    age: 21,
+    phno: 8709284262,
     address:{
         city:'ranchi',
         state:'jharkhand',
@@ -39,13 +39,13 @@ student.gender='male';
 console.log(student.gender);
 
 var student={
-    name ='shafee',
-    age = '21',
-    phno = 8709284262,
+    name:'shafee',
+    age: 21,
+    phno: 8709284262,
     address:{
         city:'ranchi',
         state:'jharkhand',
-        pin:'835345',
+        pin:835345,
     }
 }
 console.log(student);
